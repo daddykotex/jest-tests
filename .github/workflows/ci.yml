@@ -1,10 +1,7 @@
 on:
   push:
-    tags: ["v*"]
-  pull_request:
-    branches: ["*"]
 
-name: Build and deploy
+name: Build
 jobs:
   build:
     name: Test
