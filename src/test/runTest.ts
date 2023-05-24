@@ -14,7 +14,7 @@ async function main() {
 
     // Download VS Code, unzip it and run the integration test
     await runTests({
-      version: "1.66.0", // force this version to avoid https://github.com/microsoft/vscode/issues/148975
+      version: "1.73.0", // tests fail to run with later version
       extensionDevelopmentPath,
       extensionTestsPath,
     });
